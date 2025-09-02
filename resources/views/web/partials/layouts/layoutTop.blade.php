@@ -16,7 +16,7 @@
 
 	<!--=====PRELOADER START=======-->
 
-	<div class="sec-preloader">
+	{{-- <div class="sec-preloader">
 		<div class="overlay-preloader flex cac vac" id="preloader">
 			<div>
 				<div class="loader preloader flex vac">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<!--=====PRELOADER START=======-->
 

@@ -7,7 +7,8 @@
 						<div class="search__top d-flex justify-content-between align-items-center">
 							<div class="search__logo">
 								<a href="index.html">
-									<img src="assets/img/logo/white-logo.png" alt="vexon" />
+									<img src="{{ asset('web/assets/img/logo/white-logo.png') }}"
+                                    style="height: 100px;" alt="vexon" />
 								</a>
 							</div>
 							<div class="search__close">
@@ -58,118 +59,30 @@
 						<div class="header-elements">
 							<div class="site-logo">
 								<a href="index.html">
-									<img src="assets/img/logo/header-logo1.png" alt="vexon" />
+									<img src="{{ asset('web/assets/img/logo/logo1.png') }}" alt="vexon" />
 								</a>
 							</div>
 
 							<div class="main-menu-ex main-menu-ex1">
 								<ul>
-									<li>
-										<a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-										<div class="tp-submenu">
-											<div class="row">
-												<div class="col-lg-12">
-													<div class="all-images-menu">
-														<div class="homemenu-thumb">
-															<div class="img1">
-																<img src="assets/img/demo/demo1.jpg" alt="vexon" />
-															</div>
-															<div class="homemenu-btn">
-																<a class="header-btn1" href="index.html">View Page <i
-																		class="fa-solid fa-arrow-right"></i></a>
-															</div>
-															<a class="text" href="index.html">Modern Blog 01</a>
-														</div>
-
-														<div class="homemenu-thumb">
-															<div class="img1">
-																<img src="assets/img/demo/demo2.jpg" alt="vexon" />
-															</div>
-															<div class="homemenu-btn">
-																<a class="header-btn1" href="index2.html">View Page <i
-																		class="fa-solid fa-arrow-right"></i></a>
-															</div>
-															<a class="text" href="index2.html">Modern Blog 02</a>
-														</div>
-
-														<div class="homemenu-thumb">
-															<div class="img1">
-																<img src="assets/img/demo/demo3.jpg" alt="vexon" />
-															</div>
-															<div class="homemenu-btn">
-																<a class="header-btn1" href="index3.html">View Page <i
-																		class="fa-solid fa-arrow-right"></i></a>
-															</div>
-															<a class="text" href="index3.html">Modern Blog 03</a>
-														</div>
-
-														<div class="homemenu-thumb" style="margin: 0">
-															<div class="img1">
-																<img src="assets/img/demo/demo4.jpg" alt="vexon" />
-															</div>
-															<div class="homemenu-btn">
-																<a class="header-btn1" href="index4.html">View Page <i
-																		class="fa-solid fa-arrow-right"></i></a>
-															</div>
-															<a class="text" href="index5.html">Modern Blog 04</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-
-									<li class="dropdown-menu-parrent">
-										<a href="#" class="main1">Blog <i class="fa-solid fa-angle-down"></i></a>
-										<ul>
-											<li><a href="blog.html">Blog Format 1</a></li>
-											<li><a href="blog2.html">Blog Format 2</a></li>
-											<li><a href="blog3.html">Blog Format 3</a></li>
-										</ul>
-									</li>
-
-									<li class="dropdown-menu-parrent">
-										<a href="#" class="main1">Single Posts <i
-												class="fa-solid fa-angle-down"></i></a>
-										<ul>
-											<li><a href="blog-details1.html">Standard Format</a></li>
-											<li><a href="blog-details2.html">Split Format</a></li>
-											<li><a href="blog-details3.html">Overlay Format</a></li>
-											<li><a href="blog-details-sidebar-left.html">Sidebar Left</a></li>
-											<li><a href="blog-details-sidebar-right.html">Sidebar Right</a></li>
-											<li><a href="blog-single.html">Single Post</a></li>
-										</ul>
-									</li>
-
-									<li class="dropdown-menu-parrent">
-										<a href="#" class="main1">Categories <i class="fa-solid fa-angle-down"></i></a>
-										<ul>
-											<li><a href="categories.html">Categories 01</a></li>
-											<li><a href="categories2.html">Categories 02</a></li>
-										</ul>
-									</li>
-
-									<li class="dropdown-menu-parrent">
-										<a href="#" class="main1">Pages <i class="fa-solid fa-angle-down"></i></a>
-										<ul>
-											<li><a href="author.html">Author</a></li>
-											<li><a href="search.html">Search Result</a></li>
-											<li><a href="contact.html">Contact Us</a></li>
-											<li><a href="social-media.html">Social Media</a></li>
-											<li><a href="404.html">404</a></li>
-										</ul>
-									</li>
-
-									<li class="dropdown-menu-parrent">
-										<a href="#" class="main1">Account <i class="fa-solid fa-angle-down"></i></a>
-										<ul>
-											<li><a href="login.html">Login</a></li>
-											<li><a href="sigup.html">Sign Up</a></li>
-											<li><a href="forgot.html">Forgot</a></li>
-											<li><a href="reset.html">Reset Password</a></li>
-											<li><a href="verify.html">Verify</a></li>
-										</ul>
-									</li>
+                                    <li>
+                                        <a href="{{ url('/') }}">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">FAQ's</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">Contact us</a>
+                                    </li>
 								</ul>
 							</div>
 
@@ -178,7 +91,7 @@
 									<button class="search-open-btn"><i
 											class="fa-regular fa-magnifying-glass"></i></button>
 								</div>
-								<a class="theme-btn1" href="sigup.html">Subscribe </a>
+								<a class="theme-btn1" href="sigup.html">Get in Touch</a>
 							</div>
 						</div>
 					</div>
@@ -195,7 +108,7 @@
 			<div class="col-12">
 				<div class="mobile-header-elements">
 					<div class="mobile-logo">
-						<a href="index1.html"><img src="assets/img/logo/header-logo1.png" alt="vexon" /></a>
+						<a href="index1.html"><img src="{{ asset('web/assets/img/logo/logo1.png') }}" alt="vexon" /></a>
 					</div>
 					<div class="mobile-nav-icon">
 						<i class="fa-duotone fa-bars-staggered"></i>
@@ -207,63 +120,13 @@
 
 	<div class="mobile-sidebar d-block d-lg-none">
 		<div class="logo-m">
-			<a href="index.html"><img src="assets/img/logo/header-logo1.png" alt="vexon" /></a>
+			<a href="index.html"><img src="{{ asset('web/assets/img/logo/logo1.png') }}" alt="vexon" /></a>
 		</div>
 		<div class="menu-close">
 			<i class="fa-solid fa-xmark"></i>
 		</div>
 		<div class="mobile-nav">
 			<ul>
-				<li class="has-dropdown">
-					<a href="#">Home </a>
-					<ul class="sub-menu">
-						<li><a href="index.html">Home 1</a></li>
-						<li><a href="index2.html">Home 2</a></li>
-						<li><a href="index3.html">Home 3</a></li>
-						<li><a href="index4.html">Home 4</a></li>
-					</ul>
-				</li>
-				<li class="has-dropdown">
-					<a href="#">Blog</a>
-					<ul class="sub-menu">
-						<li><a href="blog.html">Blog 01</a></li>
-						<li><a href="blog2.html">Blog 02</a></li>
-						<li><a href="blog3.html">Blog 03</a></li>
-					</ul>
-				</li>
-				<li class="has-dropdown">
-					<a href="#">Single Posts</a>
-					<ul class="sub-menu">
-						<li><a href="blog-details1.html">Standard Format</a></li>
-						<li><a href="blog-details2.html">Split Format</a></li>
-						<li><a href="blog-details3.html">Overlay Format</a></li>
-						<li><a href="blog-details-sidebar-left.html">Sidebar Left</a></li>
-						<li><a href="blog-details-sidebar-right.html">Sidebar Right</a></li>
-						<li><a href="blog-single.html">Single Post</a></li>
-					</ul>
-				</li>
-
-				<li class="has-dropdown">
-					<a href="#">Pages</a>
-					<ul class="sub-menu">
-						<li><a href="author.html">Author</a></li>
-						<li><a href="search.html">Search Result</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-						<li><a href="social-media.html">Social Media</a></li>
-						<li><a href="404.html">404</a></li>
-					</ul>
-				</li>
-
-				<li class="has-dropdown has-dropdown1">
-					<a href="#" class="main">Account</a>
-					<ul class="sub-menu">
-						<li><a href="blog.html">Blog 01</a></li>
-						<li><a href="blog2.html">Blog 02</a></li>
-						<li><a href="blog-details-sidebar-left.html">Details Left</a></li>
-						<li><a href="blog-details-sidebar-right.html">Details Right</a></li>
-						<li><a href="blog-single.html">Single Blog</a></li>
-					</ul>
-				</li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 
