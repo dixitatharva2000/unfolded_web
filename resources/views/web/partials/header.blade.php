@@ -69,19 +69,19 @@
                                         <a href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">About us</a>
+                                        <a href="#aboutus">About us</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">Services</a>
+                                        <a href="#services">Services</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">Gallery</a>
+                                        <a href="#gallery">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">FAQ's</a>
+                                        <a href="#faqs">FAQ's</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">Contact us</a>
+                                        <a href="{{ route('web.contact') }}">Contact us</a>
                                     </li>
 								</ul>
 							</div>

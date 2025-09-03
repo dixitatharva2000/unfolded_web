@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="heading1">
-                        <h2 class="text-anime-style-2">About Us</h2>
+                        <h2 class="text-anime-style-2" id="aboutus">About Us</h2>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
     <!--===== ABOUT US AREA END=======-->
 
     <!--===== BLOG CETEGORYS START=======-->
-    <div class="blog1-cetegorys sp">
+    <div class="blog1-cetegorys sp" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -90,50 +90,195 @@
                 </div>
             </div>
 
-            <div class="row mt-30 sm:mt-0 md:mt-0">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="blog1-cetegory-box mt-30 text-center">
-                        <div class="image image-anime">
-                            <img src="{{ asset('web/assets/img/services/servicesimg2.jpg') }}" class="serviceimage"
-                                alt="vexon" />
+            <!-- Service Tabs -->
+            <!-- Service Tabs -->
+            <div class="service-tabs text-center my-5">
+                <ul class="nav justify-content-center" id="serviceTab" role="tablist">
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link active commoncolor" data-bs-toggle="tab" data-bs-target="#civil"
+                            type="button">
+                            <div class="tab-icon"><i class="fas fa-drafting-compass"></i></div>
+                            <span>Civil Engineering</span>
+                        </button>
+                    </li>
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#webdev" type="button">
+                            <div class="tab-icon"><i class="fas fa-code"></i></div>
+                            <span>Web Development</span>
+                        </button>
+                    </li>
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#pharma" type="button">
+                            <div class="tab-icon"><i class="fas fa-pills"></i></div>
+                            <span>DME Pharmacy</span>
+                        </button>
+                    </li>
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#recruit" type="button">
+                            <div class="tab-icon"><i class="fas fa-user-tie"></i></div>
+                            <span>Recruitment & Staffing</span>
+                        </button>
+                    </li>
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#lop" type="button">
+                            <div class="tab-icon"><i class="fas fa-briefcase"></i></div>
+                            <span>LOP Services</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content mt-4" id="serviceTabContent">
+
+                <!-- Civil Engineering Tab -->
+                <div class="tab-pane fade show active" id="civil">
+                    <!-- Core Services -->
+                    <div class="service-category p-4 mb-4 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">🏗️ Core Civil Engineering Services
+                        </h5>
+                        <div class="row g-3">
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Structural Design &
+                                Analysis</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Building Construction &
+                                Supervision</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Roads, Highways &
+                                Expressways</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Bridges & Flyovers</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Railway Infrastructure
+                            </div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Airports & Runways</div>
                         </div>
-                        <div class="heading1 mt-16">
-                            <h4>Real-Time Distribution</h4>
-                            <p>Manuals and safety. The research and development activities by various firms…</p>
-                            <a href="#" class="read-more">Read More</a>
+                    </div>
+
+                    <!-- Infrastructure -->
+                    <div class="service-category p-4 mb-4 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">🌍 Infrastructure & Urban Development
+                        </h5>
+                        <div class="row g-3">
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Urban Planning & Smart
+                                City Solutions</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Water Supply &
+                                Distribution Systems</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Sewage & Drainage Systems
+                            </div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Solid Waste Management
+                            </div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Stormwater Management
+                            </div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Public Utility
+                                Infrastructure</div>
+                        </div>
+                    </div>
+
+                    <!-- Water Resources -->
+                    <div class="service-category p-4 mb-4 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">🌊 Water Resources & Environmental
+                            Engineering</h5>
+                        <div class="row g-3">
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Dams & Reservoirs</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Irrigation Systems &
+                                Canals</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> River Training & Flood
+                                Control</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Coastal Protection &
+                                Marine Structures</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Environmental Impact
+                                Assessment (EIA)</div>
+                            <div class="col-md-4"><i class="fas fa-check text-success me-2"></i> Sustainability & Green
+                                Building Solutions</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                    <div class="blog1-cetegory-box mt-30 text-center">
-                        <div class="image image-anime">
-                            <img src="{{ asset('web/assets/img/services/servicesimg1.jpg') }}" class="serviceimage"
-                                alt="vexon" />
-                        </div>
-                        <div class="heading1 mt-16">
-                            <h4>Creative Storytelling</h4>
-                            <p>Engaging narratives that connect audiences and elevate your brand…</p>
-                            <a href="#" class="read-more">Read More</a>
+                <!-- Other Tabs (empty for now) -->
+                <!-- Web Development Tab -->
+                <div class="tab-pane fade" id="webdev">
+                    <div class="service-category p-3 mb-3 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">
+                            💻 Web Development Services
+                        </h5>
+                        <div class="row g-2 small">
+                            <div class="col-md-6 col-lg-4">
+                                <i class="fas fa-check text-success me-2"></i> Custom Website Development
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <i class="fas fa-check text-success me-2"></i> E-Commerce Solutions
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <i class="fas fa-check text-success me-2"></i> Web Applications & Portals
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <i class="fas fa-check text-success me-2"></i> UI/UX Design & Optimization
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                    <div class="blog1-cetegory-box mt-30 text-center">
-                        <div class="image image-anime">
-                            <img src="{{ asset('web/assets/img/services/servicesimg.jpg') }}" class="serviceimage"
-                                alt="vexon" />
+                <div class="tab-pane fade" id="pharma">
+                    <div class="service-category p-3 mb-3 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">
+                            💊 DME Pharmacy Services
+                        </h5>
+                        <div class="row g-2 small">
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Durable Medical Equipment (DME) Supply
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Pharmacy Services
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Home Health Care Solutions
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Insurance & Billing Assistance
+                            </div>
                         </div>
-                        <div class="heading1 mt-16">
-                            <h4>Brand Building</h4>
-                            <p>Helping businesses grow with a strong, consistent brand presence…</p>
-                            <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="recruit">
+                    <div class="service-category p-3 mb-3 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">
+                            👥 Recruitment & Staffing Services
+                        </h5>
+                        <div class="row g-2 small">
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Talent Acquisition & Hiring
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Temporary & Contract Staffing
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Executive Search & Head-Hunting
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> HR Consulting & Workforce Management
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="lop">
+                    <div class="service-category p-3 mb-3 shadow-sm rounded bg-white">
+                        <h5 class="fw-bold commontextcolor border-bottom pb-2 mb-3">
+                            📊 LOP (Loss of Pay) Services
+                        </h5>
+                        <div class="row g-2 small">
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Leave Management Solutions
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Payroll Processing & Compliance
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Employee Attendance Integration
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <i class="fas fa-check text-success me-2"></i> Reporting & Analytics
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -149,7 +294,8 @@
                         <h2 class="text-anime-style-2">Our Partners</h2>
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos-offset="50" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+                <div class="col-lg-6" data-aos-offset="50" data-aos="fade-up" data-aos-duration="400"
+                    data-aos-delay="100">
                     <div class="blog2-meets-btns text-end md:text-start sm:text-start sm:mt-20 md:mt-20">
                         <button class="blog2-slider-prev"><i class="fa-solid fa-angle-left"></i></button>
                         <button class="blog2-slider-next"><i class="fa-solid fa-angle-right"></i></button>
@@ -268,7 +414,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="heading1">
-                        <h5 class="text-anime-style-2 text-primary">Our Members</h5>
+                        <h5 class="text-anime-style-2 commontextcolor">Our Members</h5>
                         <h1 class="text-anime-style-1">Meet Our Team</h1>
                     </div>
                 </div>
@@ -483,6 +629,67 @@
             </div>
 
 
+        </div>
+    </div>
+
+    <div class="blog1-cetegorys sp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading1">
+                        <h1 class="text-anime-style-1">FAQ's</h1>
+                    </div>
+                </div>
+                <div class="col-12 my-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Why People Choose Us?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto suscipit dicta aut quod. Qui, perferendis odit rem sint explicabo esse
+                                    assumenda ut repellat? Similique voluptatem debitis, deleniti aut magnam saepe?</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Our Working Method
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto suscipit dicta aut quod. Qui, perferendis odit rem sint explicabo esse
+                                    assumenda ut repellat? Similique voluptatem debitis, deleniti aut magnam saepe?</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Our Approach
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto suscipit dicta aut quod. Qui, perferendis odit rem sint explicabo esse
+                                    assumenda ut repellat? Similique voluptatem debitis, deleniti aut magnam saepe?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <style>

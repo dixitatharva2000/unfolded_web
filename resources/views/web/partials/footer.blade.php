@@ -106,7 +106,7 @@
              </div>
              <div class="col-lg-3 col-md-6">
                  <div class="footer-contact-list1 mb-50 sm:mb-30">
-                     <h3>Gallery</h3>
+                     <h3>Location</h3>
                  </div>
              </div>
          </div>

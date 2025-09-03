@@ -10076,7 +10076,7 @@ section#counter-stats {
     color: white !important;
 }
 
-.customer-card{
+.customer-card {
     background-color: #a4a0ff8f;
     padding: 10px;
     line-height: 1.6;
@@ -10084,6 +10084,148 @@ section#counter-stats {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Tab Navigation */
+.service-tabs .nav-link {
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 25px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 160px;
+    position: relative;
+    overflow: hidden;
+}
+.service-tabs .nav-link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #a18eff, #736efc);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+    border-radius: 15px;
+}
+.service-tabs .nav-link.active,
+.service-tabs .nav-link:hover {
+    color: #fff;
+    transform: translateY(-6px) scale(1.05);
+}
+.service-tabs .nav-link.active::before,
+.service-tabs .nav-link:hover::before {
+    opacity: 1;
+}
+.service-tabs .nav-link .tab-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #736efc;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.service-tabs .nav-link.active .tab-icon,
+.service-tabs .nav-link:hover .tab-icon {
+    color: #fff;
+    transform: rotate(8deg) scale(1.3);
+}
+
+/* Service Cards */
+.service-category {
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+    background: #fff;
+    border-radius: 12px;
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+}
+.service-category:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(115, 110, 252, 0.2);
+    background: linear-gradient(135deg, #fdfdff, #f5f3ff);
+}
+.service-category h5 {
+    font-size: 1.15rem;
+    position: relative;
+}
+.service-category h5::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #736efc, #a18eff);
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+/* Service Items Animation */
+.service-category .row > div {
+    animation: slideUp 0.6s ease forwards;
+    opacity: 0;
+}
+.service-category .row > div:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.service-category .row > div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.service-category .row > div:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.service-category .row > div:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Check Icons */
+.service-category .fa-check {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.service-category div:hover .fa-check {
+    transform: scale(1.3) rotate(15deg);
+    color: #28a745;
+}
+.commonbg {
+    background-color: #736efcfd;
+}
+.commontextcolor {
+    color: #736efcfd;
+}
+.accbtn {
+    background-color: #736efc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+}
+.accbtn:hover {
+    background-color: #a7a2ff;
+    color: white;
+}
 @media (max-width: 992px) {
     .stats {
         margin-top: 20px;
