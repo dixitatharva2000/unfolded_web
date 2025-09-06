@@ -19,3 +19,5 @@
 	<script src="{{ asset('web/assets/js/jquery.lineProgressbar.js')}}"></script>
 	<script src="{{ asset('web/assets/js/animation.js')}}"></script>
 	<script src="{{ asset('web/assets/js/main.js')}}"></script>
+
+

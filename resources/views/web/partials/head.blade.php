@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
+
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.css">
     <!--=====JQUERY=======-->
     <script src="{{ asset('web/assets/js/jquery-3-7-1.min.js') }}"></script>
 </head>

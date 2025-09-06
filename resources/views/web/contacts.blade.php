@@ -44,33 +44,21 @@
                                 </div>
                                 <form action="#">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="single-input">
-                                                <input type="text" placeholder="First Name" />
+                                                <input type="text" placeholder="Name" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="single-input">
-                                                <input type="text" placeholder="Last Name" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-7">
                                             <div class="single-input">
                                                 <input type="email" placeholder="Email" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-5">
                                             <div class="single-input">
                                                 <input type="number" placeholder="Phone" />
                                             </div>
                                         </div>
-
-                                        <div class="col-md-12">
-                                            <div class="single-input">
-                                                <input type="text" placeholder="Subject" />
-                                            </div>
-                                        </div>
-
                                         <div class="col-md-12">
                                             <div class="single-input">
                                                 <textarea rows="5" placeholder="Message"></textarea>
@@ -90,7 +78,7 @@
                         <div class="col-12">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.38755026064!2d73.72107892285584!3d19.990944013098268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddd290b09914b3%3A0xcb07845d9d28215c!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1756882227909!5m2!1sen!2sin"
-                                style="border:0; width: 100%; height: 50rem;" allowfullscreen="" loading="lazy"
+                                style="border:0; width: 100%; height: 45rem;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         </div>
@@ -104,8 +92,8 @@
                             </div>
                             <div class="heading">
                                 <h4>Send Email</h4>
-                                <a href="mailto:support@vexon.com">support@vexon.com</a>
-                                <a href="mailto:contact@vexon.com">contact@vexon.com</a>
+                                <a href="mailto:unfolded.co.in@gmail.com">unfolded.co.in@gmail.com</a> <br>
+                                <a href="mailto:info@unfolded.co.in">info@unfolded.co.in</a>
                             </div>
                         </div>
                     </div>
@@ -129,8 +117,8 @@
                             </div>
                             <div class="heading">
                                 <h4>Contact Number</h4>
-                                <a href="tel:123-456-7890">123-456-7890</a>
-                                <a href="tel:123-456-7890">123-456-7890</a>
+                                <a href="tel:123-456-7890">+1 (423) 788-4988</a> <br>
+                                <a href="tel:123-456-7890">+1 (732) 497-2972</a>
                             </div>
                         </div>
                     </div>

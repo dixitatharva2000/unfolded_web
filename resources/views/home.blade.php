@@ -353,9 +353,7 @@
     </div>
 
 
-
     <!--===== OWL CAROUSEL END=======-->
-
 
     <!--===== CTA AREA START=======-->
 
@@ -378,7 +376,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="image text-end sm:text-start md:text-start sm:mt-30 md:mt-30">
+                    <div class="text-end sm:text-start md:text-start sm:mt-30 md:mt-30">
                         <img src="{{ asset('web/assets/img/hero/whoweare.png') }}" alt="vexon" />
                     </div>
                 </div>
@@ -388,7 +386,7 @@
 
             <div class="row align-items-center ">
                 <div class="col-lg-6">
-                    <div class="image text-end sm:text-start md:text-start sm:mt-30 md:mt-30 ">
+                    <div class="text-end sm:text-start md:text-start sm:mt-30 md:mt-30 ">
                         <img src="{{ asset('web/assets/img/hero/whatwedo.png') }}" alt="vexon" />
                     </div>
                 </div>
@@ -503,6 +501,91 @@
             <!-- end cont stats -->
         </div>
     </div>
+
+    <div class="blog2-meets bg-cover bg-grey py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="heading2 mb-4">
+                        <h2 class="text-anime-style-2">Proactive in digital marketing & business critic blogger.</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg1.jpg') }}" alt="" />
+                                {{-- <div class="inner">
+                        <a href="#">The Erling Bag</a>
+                    </div> --}}
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg2.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg3.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg4.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg5.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg6.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg8.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg9.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg10.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg11.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg12.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item black">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg13.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('web/assets/img/slider/sliderimg14.jpg') }}" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="blog1-cetegorys sp">
         <div class="container">
@@ -632,7 +715,7 @@
         </div>
     </div>
 
-    <div class="blog1-cetegorys sp">
+    <div class=" sp" id="faqs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -644,8 +727,8 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                <button class="accordion-button collapsed accbtn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
                                     Why People Choose Us?
                                 </button>
@@ -659,8 +742,8 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                <button class="accordion-button collapsed accbtn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
                                     Our Working Method
                                 </button>
@@ -674,8 +757,8 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed accbtn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                <button class="accordion-button collapsed accbtn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
                                     Our Approach
                                 </button>
@@ -1106,4 +1189,98 @@
 
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js"></script>
+    <style>
+        .item {
+            margin: 20px 10px;
+            opacity: 0.6;
+            transition: .4s ease all;
+            transform: scale(.9);
+        }
+
+        .active .item {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            object-fit: cover;
+        }
+
+        /* Responsive fix */
+        @media(max-width:1000px) {
+            .item {
+                margin: 0;
+                transform: scale(.9);
+            }
+        }
+
+        /* Optional caption styles */
+        .inner {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .inner a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            transition: .3s ease border-color;
+        }
+
+        .inner a:hover {
+            border-color: #fff;
+        }
+
+        .black .inner a {
+            color: #000;
+            border-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .black .inner a:hover {
+            border-color: #000;
+        }
+    </style>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            margin: 20,
+            center: true, // Centered slide
+            items: 1,
+            stagePadding: 200, // Side slides preview
+            responsive: {
+                0: {
+                    items: 2,
+                    stagePadding: 40
+                },
+                600: {
+                    items: 2,
+                    stagePadding: 100
+                },
+                1000: {
+                    items: 2,
+                    stagePadding: 200
+                },
+                1400: {
+                    items: 2,
+                    stagePadding: 250
+                }
+            }
+        });
+    </script>
+
+
+
+
 @endsection

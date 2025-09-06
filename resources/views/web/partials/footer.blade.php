@@ -108,6 +108,10 @@
                  <div class="footer-contact-list1 mb-50 sm:mb-30">
                      <h3>Location</h3>
                  </div>
+                 <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.38755026064!2d73.72107892285584!3d19.990944013098268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddd290b09914b3%3A0xcb07845d9d28215c!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1756882227909!5m2!1sen!2sin"
+                     style="border:0; width: 100%; height: 150px;" allowfullscreen="" loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>
              </div>
          </div>
 
